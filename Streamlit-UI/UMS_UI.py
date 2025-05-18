@@ -65,7 +65,7 @@ if "roll_counter" not in st.session_state:
     st.session_state.roll_counter = 1
 
 def roll_num_func():
-    roll_num = f"SAQM-{st.session_state.roll_counter:04d}"
+    roll_num = f"oru-{st.session_state.roll_counter:04d}"
     st.session_state.roll_counter += 1 
     return roll_num
 
